@@ -2,6 +2,17 @@
 
 > **Important:** This repository is an educational research demo and is **not a medical device**. It must not be used for diagnosis or clinical decisions.
 
+## Results
+
+The model produces pixel-level spleen segmentation masks from CT images.
+
+<p align="center">
+  <img src="segmentation-result.png" width="750">
+</p>
+
+<p align="center">
+  <em>CT image, U-Net predicted segmentation mask, and segmentation overlay.</em>
+</p>
 ## Features
 
 - Custom U-Net implemented in PyTorch
