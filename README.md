@@ -1,8 +1,6 @@
 # Medical Image Segmentation App
 
-A portfolio-ready computer vision project for **binary medical image segmentation** using **PyTorch, U-Net, OpenCV, and Streamlit**.
-
-> **Important:** This repository is an educational demo and is **not a medical device**. It must not be used for diagnosis or clinical decisions.
+> **Important:** This repository is an educational research demo and is **not a medical device**. It must not be used for diagnosis or clinical decisions.
 
 ## Features
 
@@ -18,12 +16,10 @@ A portfolio-ready computer vision project for **binary medical image segmentatio
 - Synthetic sample-data generator, so the app can be tested without private patient data
 - CPU, NVIDIA CUDA, and Apple MPS device support
 
-
 ## Quick Start
 
 ### Windows
 
-Double-click:
 
 ```text
 run_windows.bat
@@ -142,4 +138,3 @@ Skip connections preserve fine spatial information from the encoder and combine 
 `IoU = |A ∩ B| / |A ∪ B|`
 
 Higher values indicate stronger segmentation overlap.
-
